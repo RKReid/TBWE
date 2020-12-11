@@ -1,0 +1,140 @@
+body {
+  background-color: #C4C1C1;
+}
+p {
+  color: black;
+}
+
+p, h1, div, th, table, ul, li {
+  text-align: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.centerimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+ Table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #929292;
+  color: white;
+  font-size: 30px;
+}
+body {
+  font-family: Arial;
+  margin: 0;
+}
+.content {padding:20px;}
+.left {
+  position: absolute;
+  left: 0px;
+  width: 300px;
+}
+.right {
+  position: absolute;
+  right: 0px;
+  width: 300px;
+}
+.lefta {
+  position: absolute;
+  left: 355px;
+  width: 350px;
+}
+.righta {
+  position: absolute;
+  right: 355px;
+  width: 350px;
+}
+p.border {
+	border-style: solid;
+}
+a.a1:link, a.a1:visited {
+  background-color: #585858;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.a1:hover, a.a1:active {
+  background-color: #BDBDBD;
+}
+a.a2:link, a.a2:visited {
+  background-color: #010029;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.a2:hover, a.a2:active {
+  background-color: #00A1FF;
+}
+.vidleft {
+  position: absolute;
+  left: 155px;
+  width: 520px;
+}
+.vidright {
+  position: absolute;
+  right: 155px;
+  width: 520px;
+}
+/**this is gallery normal**/
+a.a3:link, a.a3:visited {
+  background-color: #010029;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height: 220px;
+  width: 470px;
+}
+
+a.a3:hover, a.a3:active {
+  background-color: #00A1FF;
+}
+/**this is gallery ads**/
+a.a4:link, a.a4:visited {
+  background-color: #010029;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height: 200px;
+  width: 970px;
+}
+
+a.a4:hover, a.a4:active {
+  background-color: #00A1FF;
+}
+/**this is links page**/
+a.a5:link, a.a5:visited {
+  background-color: #010029;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height: 350px;
+  width: 420px;
+}
+
+a.a5:hover, a.a5:active {
+  background-color: #00A1FF;
+}

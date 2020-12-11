@@ -1,0 +1,14 @@
+var main="<a class='a2' style='cursor:progress' href= 'gallery.html'>Main Gallery</a>";
+var notepad="<a class='a2' style='cursor:progress' href= 'notepad.html'>Notepad++</a>";
+var gifs="<a class='a2' style='cursor:progress' href= 'gifs.html'>Gifs</a>";
+var fatman="<a class='a2' style='cursor:progress' href= 'fatman.html'>Fatman TM</a>";
+var mark="<a class='a2' style='cursor:progress' href= 'mark.html'>Mark TM</a>";
+var ads="<a class='a2' style='cursor:progress' href= 'ads.html'>Ads</a>";
+var unity="<a class='a2' style='cursor:progress' href= 'unity assets.html'>Unity Assets</a>";
+ document.write(main);
+document.write(notepad);
+document.write(gifs);
+document.write(fatman);
+document.write(mark);
+document.write(ads);
+document.write(unity);

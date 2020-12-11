@@ -1,0 +1,14 @@
+var index="<a class='a1' style='cursor:progress' href= 'index.html'>Main Page</a>";
+var games="<a class='a1' style='cursor:progress' href= 'games.html'>Games</a>";
+var news="<a class='a1' style='cursor:progress' href= 'news.html'>News</a>";
+var links="<a class='a1' style='cursor:progress' href= 'links.html'>Links</a>";
+var downloads="<a class='a1' style='cursor:progress' href= 'downloads.html'>Downloads</a>";
+var gallery="<a class='a1' style='cursor:progress' href= 'gallery.html'>Gallery</a>";
+var videos="<a class='a1' style='cursor:progress' href= 'videos.html'>Videos</a>";
+ document.write(index);
+ document.write(games);
+ document.write(news);
+ document.write(links);
+ document.write(downloads);
+ document.write(gallery);
+ document.write(videos);
