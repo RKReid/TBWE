@@ -4,7 +4,10 @@ body {
 p {
   color: black;
 }
-
+      @font-face { font-family: papyrus; src: url('fonts/papyrus.ttf'); } 
+      .papyrus {
+         font-family: papyrus
+      }
 p, h1, div, th, table, ul, li {
   text-align: center;
 }
