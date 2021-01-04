@@ -141,3 +141,23 @@ a.a5:link, a.a5:visited {
 a.a5:hover, a.a5:active {
   background-color: #00A1FF;
 }
+/**This is fake virus stuff**/
+/**just give an item the "virus_a" class**/
+.virus_a {
+ position: relative;
+ animation-name: example;
+ animation-duration: .0001s;
+ animation-iteration-count: infinite;
+}
+@keyframes example {
+ 0% { left:0px; top:0px;}
+ 25% { left:200px; top:0px;}
+ 100% { left:0px; top:0px;}
+ 50% { left:200px; top:200px;}
+ 75% { left:0px; top:200px;}
+ 0% { left:0px; top:0px;}
+ 25% { left:20px; top:0px;}
+ 100% {left:60px; top:0px;}
+ 50% { left:200px; top:200px;}
+ 75% {left:0px; top:50px;}
+}
