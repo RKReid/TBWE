@@ -4,6 +4,9 @@ body {
 p {
   color: black;
 }
+.yellow {
+  color: yellow;
+}
       @font-face { font-family: papyrus; src: url('fonts/papyrus.ttf'); } 
       .papyrus {
          font-family: papyrus
