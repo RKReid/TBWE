@@ -11,6 +11,13 @@ p {
 p, h1, div, th, table, ul, li {
   text-align: center;
 }
+      @font-face { font-family: mojangles; src: url('fonts/mojangles.ttf'); } 
+      .mojangles {
+         font-family: mojangles
+      }
+p, h1, div, th, table, ul, li {
+  text-align: center;
+}
 .center {
   display: block;
   margin-left: auto;
