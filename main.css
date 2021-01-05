@@ -4,7 +4,7 @@ body {
 p {
   color: black;
 }
-.yellow {
+.yellowtext {
   color: yellow;
 }
       @font-face { font-family: papyrus; src: url('fonts/papyrus.ttf'); } 
