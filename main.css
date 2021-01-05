@@ -1,9 +1,6 @@
 body {
   background-color: #C4C1C1;
 }
-p {
-  color: black;
-}
 .yellowtext {
   color: yellow;
 }
@@ -18,9 +15,6 @@ p, h1, div, th, table, ul, li {
       .mojangles {
          font-family: mojangles
       }
-p, h1, div, th, table, ul, li {
-  text-align: center;
-}
 .center {
   display: block;
   margin-left: auto;
