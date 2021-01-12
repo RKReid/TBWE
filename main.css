@@ -63,6 +63,9 @@ body {
 p.border {
 	border-style: solid;
 }
+.img250 {
+  height: 250px;
+  width: 250px;
 a.a1:link, a.a1:visited {
   background-color: #585858;
   color: white;
@@ -150,8 +153,8 @@ a.a6:link, a.a6:visited {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  height: 500px;
-  width: 500px;
+  height: 250px;
+  width: 250px;
 }
 
 a.a6:hover, a.a6:active {
