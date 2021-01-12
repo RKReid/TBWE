@@ -142,6 +142,21 @@ a.a5:link, a.a5:visited {
 a.a5:hover, a.a5:active {
   background-color: #00A1FF;
 }
+/**this is the emulated systems links**/
+a.a6:link, a.a6:visited {
+  background-color: #010029;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height: 500px;
+  width: 500px;
+}
+
+a.a6:hover, a.a6:active {
+  background-color: #00A1FF;
+}
 /**This is fake virus stuff**/
 /**just give an item the "virus_a" class**/
 .virus_a {
