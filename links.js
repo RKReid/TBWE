@@ -6,6 +6,7 @@ var downloads="<a class='a1' style='cursor:progress' href= 'downloads.html'>Down
 var gallery="<a class='a1' style='cursor:progress' href= 'gallery.html'>Gallery</a>";
 var videos="<a class='a1' style='cursor:progress' href= 'videos.html'>Videos</a>";
 var emulator="<a class='a1' style='cursor:progress' href= 'emulators.html'>Emulators</a>";
+var shop="<a class='a1' style='cursor:progress' href= 'shop.html'>Shop</a>";
  document.write(index);
  document.write(games);
  document.write(news);
@@ -14,3 +15,4 @@ var emulator="<a class='a1' style='cursor:progress' href= 'emulators.html'>Emula
  document.write(gallery);
  document.write(videos);
  document.write(emulator);
+ document.write(shop);
