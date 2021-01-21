@@ -181,3 +181,18 @@ a.a6:hover, a.a6:active {
  50% { left:200px; top:200px;}
  75% {left:0px; top:50px;}
 }
+/**hey you. yeah you. GET OUT OF MY CSS! this here is priiiivate property!**/
+/**this is for an ad on the scam I MEAN SHOP page**/
+.shop_ad {
+ position: relative;
+ animation-name: shop_ad;
+ animation-duration: 1s;
+ animation-iteration-count: infinite;
+}
+@keyframes shop_ad {
+ 0% { left:0px; top:0px;}
+ 25% { left:-50px; top:60px;}
+ 50% { left:-100px; top:120px;}
+ 25% { left:-50px; top:60px;}
+ 100% { left:0px; top:0px;}
+}
