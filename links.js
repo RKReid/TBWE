@@ -1,4 +1,4 @@
-var index="<a class='a1' style='cursor:progress' href= '../index.html'>Main Page</a>";
+var index="<a class='a1' style='cursor:progress' href= 'index.html'>Main Page</a>";
 var games="<a class='a1' style='cursor:progress' href= 'games.html'>Games</a>";
 var news="<a class='a1' style='cursor:progress' href= 'news.html'>News</a>";
 var links="<a class='a1' style='cursor:progress' href= 'links.html'>Links</a>";
