@@ -5,10 +5,14 @@ var fatman="<a class='a2' style='cursor:progress' href= 'fatman.html'>Fatman TM<
 var mark="<a class='a2' style='cursor:progress' href= 'mark.html'>Mark TM</a>";
 var ads="<a class='a2' style='cursor:progress' href= 'ads.html'>Ads</a>";
 var unity="<a class='a2' style='cursor:progress' href= 'unity assets.html'>Unity Assets</a>";
- document.write(main);
+var emuimgs="<a class='a2' style='cursor:progress' href= 'emulatorimages.html'>Emulators</a>";
+var prephotoshop="<a class='a2' style='cursor:progress' href= 'prephotoshop.html'>Pre Photoshop</a>";
+document.write(main);
 document.write(notepad);
 document.write(gifs);
 document.write(fatman);
 document.write(mark);
 document.write(ads);
 document.write(unity);
+document.write(emuimgs);
+document.write(prephotoshop);

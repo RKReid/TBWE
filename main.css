@@ -63,6 +63,10 @@ body {
 p.border {
 	border-style: solid;
 }
+.img250 {
+  height: 250px;
+  width: 250px;
+}	
 a.a1:link, a.a1:visited {
   background-color: #585858;
   color: white;
@@ -142,6 +146,21 @@ a.a5:link, a.a5:visited {
 a.a5:hover, a.a5:active {
   background-color: #00A1FF;
 }
+/**this is the emulated systems links**/
+a.a6:link, a.a6:visited {
+  background-color: #010029;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height: 250px;
+  width: 250px;
+}
+
+a.a6:hover, a.a6:active {
+  background-color: #00A1FF;
+}
 /**This is fake virus stuff**/
 /**just give an item the "virus_a" class**/
 .virus_a {
@@ -161,4 +180,19 @@ a.a5:hover, a.a5:active {
  100% {left:60px; top:0px;}
  50% { left:200px; top:200px;}
  75% {left:0px; top:50px;}
+}
+/**hey you. yeah you. GET OUT OF MY CSS! this here is priiiivate property!**/
+/**this is for an ad on the scam I MEAN SHOP page**/
+.shop_ad {
+ position: relative;
+ animation-name: shop_ad;
+ animation-duration: 1s;
+ animation-iteration-count: infinite;
+}
+@keyframes shop_ad {
+ 0% { left:0px; top:0px;}
+ 25% { left:-50px; top:60px;}
+ 50% { left:-100px; top:120px;}
+ 25% { left:-50px; top:60px;}
+ 100% { left:0px; top:0px;}
 }
