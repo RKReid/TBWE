@@ -238,3 +238,16 @@ a.a7:hover, a.a7:active {
 100% { left:0px; top:0px;}
   
 }
+.sans {
+ position: relative;
+ animation-name: sans;
+ animation-duration: 3s;
+ animation-iteration-count: infinite;
+}
+@keyframes sans {
+ 0% { left:200px; top:0px;}
+ 25% { left:0px; top:0px;}
+ 50% { left:-200px; top:0px;}
+ 75% { left:0px; top:0px;}
+ 100% { left:200px; top:0px;}
+ }
