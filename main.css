@@ -101,6 +101,13 @@ a.a2:hover, a.a2:active {
   right: 155px;
   width: 520px;
 }
+.truecenter {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
 /**this is gallery normal**/
 a.a3:link, a.a3:visited {
   background-color: #010029;
