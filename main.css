@@ -161,6 +161,19 @@ a.a6:link, a.a6:visited {
 a.a6:hover, a.a6:active {
   background-color: #00A1FF;
 }
+/**shop link**/
+a.a7:link, a.a7:visited {
+  background-color: #B40658;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.a7:hover, a.a7:active {
+  background-color: #00FFE6;
+}
 /**This is fake virus stuff**/
 /**just give an item the "virus_a" class**/
 .virus_a {
