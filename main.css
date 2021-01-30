@@ -24,7 +24,7 @@ p, h1, div, th, table, ul, li {
   margin-right: auto;
 
 }
- Table, th, td {
+ .old_table {
   border: 1px solid white;
   border-collapse: collapse;
 }
