@@ -24,6 +24,12 @@ p, h1, div, th, table, ul, li {
   margin-right: auto;
 
 }
+.audiotable {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+width: 41%;
+}
  .old_table {
   border: 1px solid white;
   border-collapse: collapse;
