@@ -65,6 +65,9 @@ p.border {
 }
 .dashed-border {
 	border-style: dashed;
+	max-width: 560px;
+	  margin-left: auto;
+  margin-right: auto;
 }
 .img250 {
   height: 250px;
