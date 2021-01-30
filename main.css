@@ -63,8 +63,8 @@ body {
 p.border {
 	border-style: solid;
 }
-.inset-border {
-	border-style: inset;
+.dashed-border {
+	border-style: dashed;
 }
 .img250 {
   height: 250px;
