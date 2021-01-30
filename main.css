@@ -63,6 +63,9 @@ body {
 p.border {
 	border-style: solid;
 }
+.inset-border {
+	border-style: inset;
+}
 .img250 {
   height: 250px;
   width: 250px;
