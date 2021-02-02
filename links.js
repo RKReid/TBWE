@@ -9,6 +9,7 @@ var videos="<a class='a1' style='cursor:progress' href= 'videos.html'>Videos</a>
 var emulator="<a class='a1' style='cursor:progress' href= 'emulators.html'>Emulators</a>";
 var shop="<a class='a1' style='cursor:progress' href= 'shop.html'>Shop</a>";
 var saobr="<a class='a1' style='cursor:progress' href= 'saobr.html'>SAOBR</a>";
+var 3d="<a class='a1' style='cursor:progress' href= '3d.html'>3D</a>";
  document.write(index);
  document.write(games);
  document.write(news);
@@ -20,4 +21,5 @@ var saobr="<a class='a1' style='cursor:progress' href= 'saobr.html'>SAOBR</a>";
  document.write(emulator);
  document.write(shop);
  document.write(saobr);
+ document.write(3d);
 
