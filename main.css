@@ -169,7 +169,7 @@ a.a5:link, a.a5:visited {
 a.a5:hover, a.a5:active {
   background-color: #00A1FF;
 }
-/**this is the emulated systems links**/
+/**this is the old emulated systems links may be used in shop now**/
 a.a6:link, a.a6:visited {
   background-color: #010029;
   color: white;
@@ -196,6 +196,21 @@ a.a7:link, a.a7:visited {
 
 a.a7:hover, a.a7:active {
   background-color: #00FFE6;
+}
+/**this is the old emulated systems links may be used in shop now**/
+a.a8:link, a.a8:visited {
+  background-color: #010029;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height: 270px;
+  width: 250px;
+}
+
+a.a8:hover, a.a8:active {
+  background-color: #00A1FF;
 }
 /**This is fake virus stuff**/
 /**just give an item the "virus_a" class**/
