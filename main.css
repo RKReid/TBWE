@@ -211,6 +211,21 @@ a.a8:link, a.a8:visited {
 a.a8:hover, a.a8:active {
   background-color: #00A1FF;
 }
+/**fonts download**/
+a.a9:link, a.a9:visited {
+  background-color: #010029;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height: 220px;
+  width: 470px;
+}
+
+a.a9:hover, a.a9:active {
+  background-color: #00A1FF;
+}
 /**This is fake virus stuff**/
 /**just give an item the "virus_a" class**/
 .virus_a {
