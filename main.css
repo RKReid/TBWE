@@ -215,12 +215,12 @@ a.a8:hover, a.a8:active {
 a.a9:link, a.a9:visited {
   background-color: #010029;
   color: white;
-  padding: 14px 25px;
+  padding: 2px 2px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  height: 220px;
-  width: 470px;
+  height: 80px;
+  width: 500px;
 }
 
 a.a9:hover, a.a9:active {
