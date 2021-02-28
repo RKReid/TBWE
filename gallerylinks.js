@@ -9,6 +9,7 @@ var emuimgs="<a class='a2' style='cursor:progress' href= 'emulatorimages.html'>E
 var prephotoshop="<a class='a2' style='cursor:progress' href= 'prephotoshop.html'>Pre Photoshop</a>";
 var games="<a class='a2' style='cursor:progress' href= 'game images.html'>Games</a>";
 var thumbnails="<a class='a2' style='cursor:progress' href= 'thumbnails.html'>Thumbnails</a>";
+var psdandxcf="<a class='a2' style='cursor:progress' href= 'psd and xcf files.html'>PSD XCF</a>";
 document.write(main);
 document.write(notepad);
 document.write(gifs);
@@ -20,3 +21,4 @@ document.write(emuimgs);
 document.write(prephotoshop);
 document.write(games);
 document.write(thumbnails);
+document.write(psdandxcf);
