@@ -8,6 +8,7 @@ var unity="<a class='a2' style='cursor:progress' href= 'unity assets.html'>Unity
 var emuimgs="<a class='a2' style='cursor:progress' href= 'emulatorimages.html'>Emulators</a>";
 var prephotoshop="<a class='a2' style='cursor:progress' href= 'prephotoshop.html'>Pre Photoshop</a>";
 var games="<a class='a2' style='cursor:progress' href= 'game images.html'>Games</a>";
+var thumbnails="<a class='a2' style='cursor:progress' href= 'thumbnails.html'>Thumbnails</a>";
 document.write(main);
 document.write(notepad);
 document.write(gifs);
@@ -18,3 +19,4 @@ document.write(unity);
 document.write(emuimgs);
 document.write(prephotoshop);
 document.write(games);
+document.write(thumbnails);
