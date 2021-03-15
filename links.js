@@ -10,6 +10,7 @@ var emulator="<a class='a1' style='cursor:progress' href= 'emulators.html'>Emula
 var shop="<a class='a1' style='cursor:progress' href= 'shop.html'>Shop</a>";
 var saobr="<a class='a1' style='cursor:progress' href= 'saobr.html'>SAOBR</a>";
 var three="<a class='a1' style='cursor:progress' href= '3d.html'>3D</a>";
+var seasonal="<a class='a10' style='cursor:progress' href= 'seasonal.html'>Seasonal</a>";
  document.write(index);
  document.write(games);
  document.write(news);
@@ -22,4 +23,4 @@ var three="<a class='a1' style='cursor:progress' href= '3d.html'>3D</a>";
  document.write(shop);
  document.write(saobr);
  document.write(three);
-
+ document.write(seasonal);

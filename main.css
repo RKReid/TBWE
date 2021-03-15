@@ -232,6 +232,20 @@ a.a9:link, a.a9:visited {
 a.a9:hover, a.a9:active {
   background-color: #00A1FF;
 }
+/**seasonal link**/
+a.a10:link, a.a10:visited {
+  background-color: #BD0059;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: outline-block;
+  text-decoration: overline;
+}
+
+a.a10:hover, a.a10:active {
+  background-color: #0582F3;
+}
 /**This is fake virus stuff**/
 /**just give an item the "virus_a" class**/
 .virus_a {
