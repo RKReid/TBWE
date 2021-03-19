@@ -246,6 +246,21 @@ a.a10:link, a.a10:visited {
 a.a10:hover, a.a10:active {
   background-color: #0582F3;
 }
+/**in text links for history page**/
+a.a11:link, a.a11:visited {
+  background-color: #435FFF;
+  color: white;
+  padding: 2px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-style: inset;
+}
+
+a.a11:hover, a.a11:active {
+  background-color: #BDBDBD;
+  border-style: outset;
+}
 /**This is fake virus stuff**/
 /**just give an item the "virus_a" class**/
 .virus_a {
