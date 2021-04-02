@@ -94,6 +94,27 @@ img.saobrimg {
   max-width: 550px;
   max-height: 300px;
 }
+/** green buttons for games page**/
+.buttonanim {
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: .8s;
+}
+.greenbutton {
+  background-color: ABFFB8; 
+  color: black; 
+  border: 2px solid #ABFFB8;
+}
+
+.greenbutton:hover {
+  background-color: #4CAF50;
+  color: white;
+  border: 10px solid #4BB14F;
+}
 a.a1:link, a.a1:visited {
   background-color: #585858;
   color: white;
