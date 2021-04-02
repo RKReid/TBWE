@@ -80,6 +80,12 @@ p.border {
 	  margin-left: auto;
   margin-right: auto;
 }
+.inset-border {
+	border-style: inset;
+	  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
+}
 .img250 {
   height: 250px;
   width: 250px;
