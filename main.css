@@ -1,3 +1,4 @@
+/**hello and welcome to my css! Go here for a run down on what this does https://rkreid.github.io/project5 **/
 body {
   background-color: #C4C1C1;
 }
@@ -115,6 +116,7 @@ img.saobrimg {
   color: white;
   border: 10px solid #4BB14F;
 }
+/** original a1
 a.a1:link, a.a1:visited {
   background-color: #585858;
   color: white;
@@ -127,6 +129,21 @@ a.a1:link, a.a1:visited {
 a.a1:hover, a.a1:active {
   background-color: #BDBDBD;
 }
+**/
+a.a1:link, a.a1:visited {
+  background-color: #585858;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+    transition-duration: .3s;
+}
+
+a.a1:hover, a.a1:active {
+  background-color: #BDBDBD;
+    padding: 16px 27px;
+}
 a.a2:link, a.a2:visited {
   background-color: #010029;
   color: white;
@@ -134,10 +151,13 @@ a.a2:link, a.a2:visited {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+    display: inline-block;
+    transition-duration: .3s;
 }
 
 a.a2:hover, a.a2:active {
   background-color: #00A1FF;
+    padding: 16px 27px;
 }
 .vidleft {
   position: absolute;
@@ -170,6 +190,7 @@ a.a3:link, a.a3:visited {
 
 a.a3:hover, a.a3:active {
   background-color: #00A1FF;
+    transition-duration: .3s;
 }
 /**this is gallery ads**/
 a.a4:link, a.a4:visited {
@@ -185,6 +206,7 @@ a.a4:link, a.a4:visited {
 
 a.a4:hover, a.a4:active {
   background-color: #00A1FF;
+    transition-duration: .3s;
 }
 /**this is links page**/
 a.a5:link, a.a5:visited {
@@ -200,6 +222,7 @@ a.a5:link, a.a5:visited {
 
 a.a5:hover, a.a5:active {
   background-color: #00A1FF;
+  transition-duration: .3s;
 }
 /**this is the old emulated systems links may be used in shop now**/
 a.a6:link, a.a6:visited {
@@ -215,6 +238,7 @@ a.a6:link, a.a6:visited {
 
 a.a6:hover, a.a6:active {
   background-color: #00A1FF;
+  transition-duration: .3s;
 }
 /**shop link**/
 a.a7:link, a.a7:visited {
@@ -228,6 +252,7 @@ a.a7:link, a.a7:visited {
 
 a.a7:hover, a.a7:active {
   background-color: #00FFE6;
+  transition-duration: .3s;
 }
 /**this is the old emulated systems links may be used in shop now**/
 a.a8:link, a.a8:visited {
@@ -243,6 +268,7 @@ a.a8:link, a.a8:visited {
 
 a.a8:hover, a.a8:active {
   background-color: #00A1FF;
+  transition-duration: .3s;
 }
 /**fonts download**/
 a.a9:link, a.a9:visited {
@@ -258,6 +284,7 @@ a.a9:link, a.a9:visited {
 
 a.a9:hover, a.a9:active {
   background-color: #00A1FF;
+  transition-duration: .3s;
 }
 /**seasonal link**/
 a.a10:link, a.a10:visited {
@@ -272,6 +299,7 @@ a.a10:link, a.a10:visited {
 
 a.a10:hover, a.a10:active {
   background-color: #0582F3;
+  transition-duration: .3s;
 }
 /**in text links for history page**/
 a.a11:link, a.a11:visited {
@@ -286,6 +314,7 @@ a.a11:link, a.a11:visited {
 
 a.a11:hover, a.a11:active {
   background-color: #BDBDBD;
+  transition-duration: .3s;
   border-style: outset;
 }
 /**This is fake virus stuff**/
