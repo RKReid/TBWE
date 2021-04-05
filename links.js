@@ -12,6 +12,7 @@ var saobr="<a class='a1' style='cursor:progress' href= 'saobr.html'>SAOBR</a>";
 var three="<a class='a1' style='cursor:progress' href= '3d.html'>3D</a>";
 var histor="<a class='a1' style='cursor:progress' href= 'history.html'>History</a>";
 var seasonal="<a class='a10' style='cursor:progress' href= 'seasonal.html'>Seasonal</a>";
+var contact="<br><a class='a1' style='cursor:progress' href= 'contact.html'>Contact</a>";
  document.write(index);
  document.write(games);
  document.write(news);
@@ -26,4 +27,4 @@ var seasonal="<a class='a10' style='cursor:progress' href= 'seasonal.html'>Seaso
  document.write(three);
  document.write(histor);
  document.write(seasonal);
-
+ document.write(contact);

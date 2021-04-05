@@ -13,6 +13,10 @@ p, h1, div, th, table, ul, li {
       .mojangles {
          font-family: mojangles
       }
+      @font-face { font-family: neilbold; src: url('fonts/Neil Bold.ttf'); } 
+      .neilbold {
+         font-family: neilbold
+      }	  
 .center {
   display: block;
   margin-left: auto;
