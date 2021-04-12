@@ -13,7 +13,7 @@ var three="<a class='a1' style='cursor:progress' href= '../3d.html'>3D</a>";
 var histor="<a class='a1' style='cursor:progress' href= '../history.html'>History</a>";
 var seasonal="<a class='a10' style='cursor:progress' href= '../seasonal.html'>Seasonal</a>";
 var contact="<br><a class='a1' style='cursor:progress' href= '../contact.html'>Contact</a>";
-var faq="<br><a class='a1' style='cursor:progress' href= '../faq.html'>F.A.Q.</a>";
+var faq="<a class='a1' style='cursor:progress' href= '../faq.html'>F.A.Q.</a>";
  document.write(index);
  document.write(games);
  document.write(news);
