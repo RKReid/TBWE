@@ -10,6 +10,7 @@ var prephotoshop="<a class='a2' style='cursor:progress' href= 'prephotoshop.html
 var games="<a class='a2' style='cursor:progress' href= 'game images.html'>Games</a>";
 var thumbnails="<a class='a2' style='cursor:progress' href= 'thumbnails.html'>Thumbnails</a>";
 var psdandxcf="<a class='a2' style='cursor:progress' href= 'psd and xcf files.html'>PSD XCF</a>";
+var inspirobot="<a class='a2' style='cursor:progress' href= 'inspirobot.html'>Inspirobot</a>";
 document.write(main);
 document.write(notepad);
 document.write(gifs);
@@ -22,3 +23,4 @@ document.write(prephotoshop);
 document.write(games);
 document.write(thumbnails);
 document.write(psdandxcf);
+document.write(inspirobot);

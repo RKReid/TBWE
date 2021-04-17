@@ -196,6 +196,22 @@ a.a3:hover, a.a3:active {
   background-color: #00A1FF;
     transition-duration: .3s;
 }
+/**this is gallery normal**/
+a.a3b:link, a.a3b:visited {
+  background-color: #010029;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height: 320px;
+  width: 470px;
+}
+
+a.a3b:hover, a.a3b:active {
+  background-color: #00A1FF;
+    transition-duration: .3s;
+}
 /**this is gallery ads**/
 a.a4:link, a.a4:visited {
   background-color: #010029;
