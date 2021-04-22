@@ -126,6 +126,26 @@ img.saobrimg {
   color: white;
   border: 10px solid #4BB14F;
 }
+.bluebuttonanim {
+  color: 9AFBFF;
+  padding: 8px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: .8s;
+}
+.bluebutton {
+  background-color: 9AFBFF; 
+  color: black; 
+  border: 2px solid #9AFBFF;
+}
+
+.bluebutton:hover {
+  background-color: #091FE1;
+  color: white;
+  border: 10px solid #9AFBFF;
+}
 /** original a1
 a.a1:link, a.a1:visited {
   background-color: #585858;
