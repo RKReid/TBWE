@@ -8,6 +8,28 @@
 </div>
 <body>
 
+
+<!--no scroll buttons https://www.geeksforgeeks.org/how-to-disable-scrolling-temporarily-using-javascript/-->
+<script>
+function disableScroll() {
+    // Get the current page scroll position
+    scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
+  
+        // if any scroll is attempted, set this to the previous value
+        window.onscroll = function() {
+            window.scrollTo(scrollLeft, scrollTop);
+        };
+}
+  
+function enableScroll() {
+    window.onscroll = function() {};
+}
+</script>
+
+
+
+
 <head><link rel="stylesheet" href="main.css"><title>TBWE 5</title></head>
 <div class="header">
 <img src="images/logo.png"  width="600" class="centerimg">
@@ -22,9 +44,16 @@
 <p style="background-color:grey; color: white">Recommend games for me to add to this page from <a class="a2" href="https://www.y8.com/search?utf8=%E2%9C%93&kind=game&q=webgl">this website</a>. Send the URL to this email address <a class="a2" href="mailto:saobrofficial@gmail.com">saobrofficial@gmail.com</a>.<br></p>
 <br><br><br>
 <!--slope is width="900" height='640'-->
-<iframe id="game" width="1000" height='800' allow='autoplay'></iframe><br>
+
+<iframe id="game" width="1000" height='800' allow='autoplay' allowfullscreen></iframe><br>
+
+<button class="reddeclinebuttonanim reddeclinebutton fixed_bottom_scroll_buttons_left" onclick="disableScroll()">Disable Scrolling</button>
+<button class="greenacceptbuttonanim greenacceptbutton fixed_bottom_scroll_buttons_right" onclick="enableScroll()">Enable Scrolling</button>
+
 <button class="buttonanim greenbutton" style="cursor:progress" onclick="document.getElementById('game').src='https://storage.y8.com/y8-studio/unity/joll/slope/?key=9757549&value=80527'">Slope</button>
 <button class="buttonanim greenbutton" style="cursor:progress" onclick="document.getElementById('game').src='https://classic.minecraft.net/'">Minecraft</button>
+<button class="buttonanim greenbutton" style="cursor:progress" onclick="document.getElementById('game').src='https://trex-runner.com/'">Dino Game</button>
+
 
 <br><h3>Other</h3>
 <!--<button class="buttonanim greenbutton" style="cursor:progress" onclick="document.getElementById('game').src='http://thisisnotavirus.com/'">thisisnotavirus.com<br>EPILEPSY WARNING</button>

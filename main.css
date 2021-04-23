@@ -146,6 +146,57 @@ img.saobrimg {
   color: white;
   border: 10px solid #9AFBFF;
 }
+.reddeclinebuttonanim {
+  background-color: #F42727;
+  padding: 4px 7.5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: .8s;
+}
+.reddeclinebutton {
+  background-color: #F42727; 
+  color: white; 
+  border: 2px solid #F42727;
+}
+
+.reddeclinebutton:hover {
+  background-color: #F26565;
+  color: white;
+  border: 10px solid #F26565;
+}
+.greenacceptbuttonanim {
+  background-color: #30F57C;
+  padding: 4px 7.5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: .8s;
+}
+.greenacceptbutton {
+  background-color: #30F57C; 
+  color: white; 
+  border: 2px solid #30F57C;
+}
+.greenacceptbutton:hover {
+  background-color: #83EDAC;
+  color: white;
+  border: 10px solid #83EDAC;
+}
+.fixed_bottom_scroll_buttons_left
+{
+    position: fixed;
+    bottom: 20px;
+	left: 600px;
+}
+.fixed_bottom_scroll_buttons_right
+{
+    position: fixed;
+    bottom: 20px;
+	right: 600px;
+}
 /** original a1
 a.a1:link, a.a1:visited {
   background-color: #585858;
