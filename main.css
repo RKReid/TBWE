@@ -414,6 +414,26 @@ a.a11:hover, a.a11:active {
   transition-duration: .3s;
   border-style: outset;
 }
+/**torrent links**/
+a.a12:link, a.a12:visited {
+  background-color: #183795;
+  color: white;
+  padding: 40px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-style: inset;
+  height: 80px;
+  width: 140px;
+  
+}
+
+a.a12:hover, a.a12:active {
+  background-color: #BDBDBD;
+  transition-duration: .3s;
+  border-style: outset;
+  border-color: white;
+}
 /**This is fake virus stuff**/
 /**just give an item the "virus_a" class**/
 .virus_a {
