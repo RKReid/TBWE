@@ -4,9 +4,11 @@ var page3="<a class='a1' style='cursor:progress' href= 'gallery3.html'>Page 3</a
 var page4="<a class='a1' style='cursor:progress' href= 'gallery4.html'>Page 4</a>";
 var page5="<a class='a1' style='cursor:progress' href= 'gallery5.html'>Page 5</a>";
 var page6="<a class='a1' style='cursor:progress' href= 'gallery6.html'>Page 6</a>";
+var page7="<a class='a1' style='cursor:progress' href= 'gallery7.html'>Page 7</a>";
 document.write(page1);
 document.write(page2);
 document.write(page3);
 document.write(page4);
 document.write(page5);
 document.write(page6);
+document.write(page7);
