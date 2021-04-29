@@ -14,6 +14,7 @@ var histor="<a class='a1' style='cursor:progress' href= '../../history.html'>His
 var seasonal="<a class='a10' style='cursor:progress' href= '../../seasonal.html'>Seasonal</a>";
 var contact="<br><a class='a1' style='cursor:progress' href= '../../contact.html'>Contact</a>";
 var faq="<a class='a1' style='cursor:progress' href= '../../faq.html'>F.A.Q.</a>";
+var unblocker="<a class='a1' style='cursor:progress' href= '../../unblocker.html'>Unblocker</a>";
  document.write(index);
  document.write(games);
  document.write(news);
@@ -30,3 +31,4 @@ var faq="<a class='a1' style='cursor:progress' href= '../../faq.html'>F.A.Q.</a>
  document.write(seasonal);
  document.write(contact);
  document.write(faq);
+ document.write(unblocker);

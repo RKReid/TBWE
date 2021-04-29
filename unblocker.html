@@ -38,25 +38,38 @@ function enableScroll() {
 <br>
 <!--start of write area-->
 <h1>Welcome to the Website Unblocker!</h1>
-<p>Enter a URL into the box and click Unblock. Your website still may be blocked, as this is not perfect. However, it can unblock a good amount of websites.</p>
-<p style="background-color:grey; color: white">Recommend websites for me to add to the games page by either going to the <a class="a1" href="contact.html">contact page</a> or by sending and email to this email address <a class="a2" href="mailto:saobrofficial@gmail.com">saobrofficial@gmail.com</a>.<br></p>
+<p class="centernews">Enter a URL into the box and click Unblock. Your website still may be blocked, as this is not perfect. However, it can unblock a good amount of websites.</p>
+<p style="background-color:grey; color: white">Recommend websites for me to add to the games page by either going to the <a class="a1" href="contact.html">contact page</a> or by sending and email to this email address <a class="a2" href="mailto:saobrofficial@gmail.com">saobrofficial@gmail.com</a>. <br>If you find a website does not work here, please also send me the URL.<br></p>
 <br><br><br>
-<!--slope is width="900" height='640'-->
-
-<iframe id="game" width="1000" height='800' allow='autoplay' allowfullscreen></iframe><br>
 
 <button class="reddeclinebuttonanim reddeclinebutton fixed_bottom_scroll_buttons_left" onclick="disableScroll()">Disable Scrolling</button>
 <button class="greenacceptbuttonanim greenacceptbutton fixed_bottom_scroll_buttons_right" onclick="enableScroll()">Enable Scrolling</button>
 
-<input class="buttonanim greenbutton"  style="cursor:progress" onclick="document.getElementById('game').src=form_id"></input>
-<button class="buttonanim greenbutton" style="cursor:progress" onclick="document.getElementById('game').src='https://classic.minecraft.net/'">Minecraft</button>
-<button class="buttonanim greenbutton" style="cursor:progress" onclick="document.getElementById('game').src='https://trex-runner.com/'">Dino Game</button>
-<button class="buttonanim greenbutton" style="cursor:progress" onclick="document.getElementById('game').src='https://playclassic.games/games/role-playing-rpg-genesis-games-online/play-cave-story-online/play/'">Cave Story</button>
 
+<!--user input text-->
+<br><p>Please keep in mind, this is not perfect. It is not guaranteed to work. Click <a href="#list" class="a1">here</a> to see a list of websites that cannot be unblocked via this method.</p>
+<input onClick="this.select();" size="200" type="text" id="myText" value="Enter URL Here">
+<br>
+<button onclick="myFunction()">Unblock</button>
+<br><br><br>
 
-  
+<iframe id="iframeweb" width="1200" height="950"></iframe>
+<script>
+function myFunction() {
+  var urlweb = document.getElementById("myText").value;
+  document.getElementById("iframeweb").src= urlweb;
+}
+</script>
 <br><br><br><br><br><br><br>
-<a style="cursor:progress" href="https://rkreid.github.io/project5"><img src="images/chrome extension.png"></a>
+<h2 id="list">Websites that this Cannot Unblock/Do not work</h2>
+<p>
+https://youtube.com<br>
+http://thisisnotavirus.com<br>
+ 
+
+</p> 
+<br><br><br><br><br><br><br>
+<a style="cursor:progress" href="https://rkreid.github.io/project5"><img src="images/english download free ram ad.jpg"></a>
 <br><br><br>
 <button style="cursor:progress" type="button"src= class="center" onclick="alert('There is no such thing as Windows 8. Steve job fabricated this to ruin Microsoft.')">CLICK ME GET WINDOWS 8!!!!!!!</button>
 <button style="cursor:progress" type="button"src= class="center" onclick="alert('YOU DONT HAVE THE RIGHT TO EXIST!!!!!!!!!!!!!!')">CLICK ME IF YOU HATE WINDOWS VISTA!!!!!!!</button>
