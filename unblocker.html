@@ -42,8 +42,6 @@ function enableScroll() {
 <p style="background-color:grey; color: white">Recommend websites for me to add to the games page by either going to the <a class="a1" href="contact.html">contact page</a> or by sending and email to this email address <a class="a2" href="mailto:saobrofficial@gmail.com">saobrofficial@gmail.com</a>. <br>If you find a website does not work here, please also send me the URL.<br></p>
 <br><br><br>
 
-<button class="reddeclinebuttonanim reddeclinebutton fixed_bottom_scroll_buttons_left" onclick="disableScroll()">Disable Scrolling</button>
-<button class="greenacceptbuttonanim greenacceptbutton fixed_bottom_scroll_buttons_right" onclick="enableScroll()">Enable Scrolling</button>
 
 
 <!--user input text-->
@@ -51,6 +49,14 @@ function enableScroll() {
 <input onClick="this.select();" size="200" type="text" id="myText" value="Enter URL Here">
 <br>
 <button onclick="myFunction()">Unblock</button>
+<br>
+<details open>
+<summary>Show/hide scroll lock buttons.</summary>
+<button class="reddeclinebuttonanim reddeclinebutton fixed_bottom_scroll_buttons_left" onclick="disableScroll()">Disable Scrolling</button>
+<button class="greenacceptbuttonanim greenacceptbutton fixed_bottom_scroll_buttons_right" onclick="enableScroll()">Enable Scrolling</button>
+</details>
+
+
 <br><br><br>
 
 <iframe id="iframeweb" width="1200" height="950"></iframe>
