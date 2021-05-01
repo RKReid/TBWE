@@ -508,3 +508,13 @@ a.a12:hover, a.a12:active {
   padding-top: 25px;
   padding-bottom: 25px;
  }  
+ /**used for button background**/
+.darkblue_background {
+	color: white;
+	background-color: #2F28A6;
+	width: 1400px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;  
+}
