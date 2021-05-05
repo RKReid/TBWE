@@ -90,12 +90,20 @@ p.border {
 	  margin-left: auto;
   margin-right: auto;
   max-width: 900px;
+    padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px; 
 }
 .small-outset-border {
 	border-style: outset;
 	  margin-left: auto;
   margin-right: auto;
   max-width: 600px;
+    padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px; 
 }
 .img250 {
   height: 250px;
@@ -219,6 +227,7 @@ a.a1:link, a.a1:visited {
   text-decoration: none;
   display: inline-block;
     transition-duration: .3s;
+	cursor:progress;
 }
 
 a.a1:hover, a.a1:active {
@@ -234,6 +243,7 @@ a.a2:link, a.a2:visited {
   display: inline-block;
     display: inline-block;
     transition-duration: .3s;
+	cursor:progress;
 }
 
 a.a2:hover, a.a2:active {
@@ -267,11 +277,13 @@ a.a3:link, a.a3:visited {
   display: inline-block;
   height: 220px;
   width: 470px;
+  cursor:progress;
 }
 
 a.a3:hover, a.a3:active {
   background-color: #00A1FF;
     transition-duration: .3s;
+
 }
 /**this is gallery normal**/
 a.a3b:link, a.a3b:visited {
@@ -283,6 +295,7 @@ a.a3b:link, a.a3b:visited {
   display: inline-block;
   height: 320px;
   width: 470px;
+
 }
 
 a.a3b:hover, a.a3b:active {
@@ -299,6 +312,7 @@ a.a4:link, a.a4:visited {
   display: inline-block;
   height: 200px;
   width: 970px;
+  cursor:progress;
 }
 
 a.a4:hover, a.a4:active {
@@ -315,6 +329,7 @@ a.a5:link, a.a5:visited {
   display: inline-block;
   height: 350px;
   width: 420px;
+  cursor:progress;
 }
 
 a.a5:hover, a.a5:active {
@@ -331,6 +346,7 @@ a.a6:link, a.a6:visited {
   display: inline-block;
   height: 250px;
   width: 250px;
+  cursor:progress;
 }
 
 a.a6:hover, a.a6:active {
@@ -345,6 +361,7 @@ a.a7:link, a.a7:visited {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  cursor:progress;
 }
 
 a.a7:hover, a.a7:active {
@@ -361,6 +378,7 @@ a.a8:link, a.a8:visited {
   display: inline-block;
   height: 270px;
   width: 250px;
+  cursor:progress;
 }
 
 a.a8:hover, a.a8:active {
@@ -377,6 +395,7 @@ a.a9:link, a.a9:visited {
   display: inline-block;
   height: 80px;
   width: 500px;
+  cursor:progress;
 }
 
 a.a9:hover, a.a9:active {
@@ -392,6 +411,7 @@ a.a10:link, a.a10:visited {
   text-decoration: none;
   display: outline-block;
   text-decoration: overline;
+  cursor:progress;
 }
 
 a.a10:hover, a.a10:active {
@@ -407,12 +427,14 @@ a.a11:link, a.a11:visited {
   text-decoration: none;
   display: inline-block;
   border-style: inset;
+  cursor:progress;
 }
 
 a.a11:hover, a.a11:active {
   background-color: #BDBDBD;
   transition-duration: .3s;
   border-style: outset;
+  cursor:progress;
 }
 /**torrent links**/
 a.a12:link, a.a12:visited {
@@ -517,4 +539,7 @@ a.a12:hover, a.a12:active {
   padding-bottom: 25px;
   padding-left: 25px;
   padding-right: 25px;  
+}
+.top_padding25 {
+	padding-top: 25px;
 }
