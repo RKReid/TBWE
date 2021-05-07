@@ -456,6 +456,45 @@ a.a12:hover, a.a12:active {
   border-style: outset;
   border-color: white;
 }
+a.a12g:link, a.a12g:visited {
+  background-color: #00DC4F;
+  color: white;
+  padding: 40px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-style: inset;
+  height: 80px;
+  width: 140px;
+  
+}
+
+a.a12g:hover, a.a12g:active {
+  background-color: #4CFFBF;
+  transition-duration: .3s;
+  border-style: outset;
+  border-color: white;
+}
+a.a12y:link, a.a12y:visited {
+  background-color: #D1D038;
+  color: white;
+  padding: 40px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-style: inset;
+  height: 80px;
+  width: 140px;
+  
+}
+
+a.a12y:hover, a.a12y:active {
+  background-color: #E0E08D;
+  background-image: url("images/proto tall ad.png");
+  transition-duration: .3s;
+  border-style: outset;
+  border-color: white;
+}
 /**This is fake virus stuff**/
 /**just give an item the "virus_a" class**/
 .virus_a {
