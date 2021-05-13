@@ -16,7 +16,11 @@ p, h1, div, th, table, ul, li {
       @font-face { font-family: neilbold; src: url('fonts/Neil Bold.ttf'); } 
       .neilbold {
          font-family: neilbold
-      }	  
+      }
+      @font-face { font-family: dosfont; src: url('fonts/Perfect DOS VGA 437 Win.ttf'); } 
+      .dosfont {
+         font-family: dosfont
+      }
 .center {
   display: block;
   margin-left: auto;
@@ -49,6 +53,13 @@ width: 41%;
   text-align: center;
   background: #929292;
   color: white;
+  font-size: 30px;
+}
+.header_black {
+  padding: 60px;
+  text-align: center;
+  background: #000000;
+  color: red;
   font-size: 30px;
 }
 body {
@@ -581,4 +592,10 @@ a.a12y:hover, a.a12y:active {
 }
 .top_padding25 {
 	padding-top: 25px;
+}
+.font21px {
+font-size: 21px;	
+}
+.couriernew {
+  font-family: 'Courier New', monospace;
 }
