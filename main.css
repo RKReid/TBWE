@@ -16,7 +16,11 @@ p, h1, div, th, table, ul, li {
       @font-face { font-family: neilbold; src: url('fonts/Neil Bold.ttf'); } 
       .neilbold {
          font-family: neilbold
-      }	  
+      }
+      @font-face { font-family: dosfont; src: url('fonts/Perfect DOS VGA 437 Win.ttf'); } 
+      .dosfont {
+         font-family: dosfont
+      }
 .center {
   display: block;
   margin-left: auto;
