@@ -51,6 +51,13 @@ width: 41%;
   color: white;
   font-size: 30px;
 }
+.header_black {
+  padding: 60px;
+  text-align: center;
+  background: #000000;
+  color: red;
+  font-size: 30px;
+}
 body {
   font-family: Arial;
   margin: 0;
