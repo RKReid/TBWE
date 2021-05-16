@@ -21,6 +21,14 @@ p, h1, div, th, table, ul, li {
       .dosfont {
          font-family: dosfont
       }
+	   @font-face { font-family: futurablack; src: url('fonts/Futura Black.ttf'); } 
+      .futurablack {
+         font-family: futurablack
+      }
+	  @font-face { font-family: futura; src: url('fonts/futura.ttf'); } 
+      .futura {
+         font-family: futura
+      }
 .center {
   display: block;
   margin-left: auto;
