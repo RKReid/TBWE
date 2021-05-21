@@ -1,0 +1,603 @@
+/**hello and welcome to my css! Go here for a run down on what this does https://rkreid.github.io/project5 **/
+
+      @font-face { font-family: papyrus; src: url('fonts/papyrus.ttf'); } 
+      .papyrus {
+         font-family: papyrus
+      }
+p, h1, div, th, table, ul, li {
+  text-align: center;
+}
+      @font-face { font-family: mojangles; src: url('../../fonts/mojangles.ttf'); } 
+      .mojangles {
+         font-family: mojangles
+      }
+      @font-face { font-family: neilbold; src: url('../../fonts/Neil Bold.ttf'); } 
+      .neilbold {
+         font-family: neilbold
+      }
+      @font-face { font-family: dosfont; src: url('../../fonts/Perfect DOS VGA 437 Win.ttf'); } 
+      .dosfont {
+         font-family: dosfont
+      }
+	   @font-face { font-family: futurablack; src: url('../../fonts/Futura Black.ttf'); } 
+      .futurablack {
+         font-family: futurablack
+      }
+	  @font-face { font-family: futura; src: url('../../fonts/futura.ttf'); } 
+      .futura {
+         font-family: futura
+      }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.centerimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.centernews {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:700px;
+}
+.audiotable {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+width: 41%;
+}
+ .old_table {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #929292;
+  color: white;
+  font-size: 30px;
+}
+.header_black {
+  padding: 60px;
+  text-align: center;
+  background: #000000;
+  color: red;
+  font-size: 30px;
+}
+.content {padding:20px;}
+.left {
+  position: absolute;
+  left: 0px;
+  width: 300px;
+}
+.right {
+  position: absolute;
+  right: 0px;
+  width: 300px;
+}
+.lefta {
+  position: absolute;
+  left: 355px;
+  width: 350px;
+}
+.righta {
+  position: absolute;
+  right: 355px;
+  width: 350px;
+}
+p.border {
+	border-style: solid;
+}
+.dashed-border {
+	border-style: dashed;
+	max-width: 560px;
+	  margin-left: auto;
+  margin-right: auto;
+}
+.inset-border {
+	border-style: inset;
+	  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
+    padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px; 
+}
+.small-outset-border {
+	border-style: outset;
+	  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+    padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px; 
+}
+.img250 {
+  height: 250px;
+  width: 250px;
+}	
+img.saobrimg {
+  max-width: 550px;
+  max-height: 300px;
+}
+/** green buttons for games page**/
+.buttonanim {
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: .8s;
+}
+.greenbutton {
+  background-color: ABFFB8; 
+  color: black; 
+  border: 2px solid #ABFFB8;
+}
+
+.greenbutton:hover {
+  background-color: #4CAF50;
+  color: white;
+  border: 10px solid #4BB14F;
+}
+.bluebuttonanim {
+  color: 9AFBFF;
+  padding: 8px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: .8s;
+}
+.bluebutton {
+  background-color: 9AFBFF; 
+  color: black; 
+  border: 2px solid #9AFBFF;
+}
+
+.bluebutton:hover {
+  background-color: #091FE1;
+  color: white;
+  border: 10px solid #3D36BE;
+}
+.reddeclinebuttonanim {
+  background-color: #F42727;
+  padding: 4px 7.5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: .8s;
+}
+.reddeclinebutton {
+  background-color: #F42727; 
+  color: white; 
+  border: 2px solid #F42727;
+}
+
+.reddeclinebutton:hover {
+  background-color: #F26565;
+  color: white;
+  border: 10px solid #F26565;
+}
+.greenacceptbuttonanim {
+  background-color: #30F57C;
+  padding: 4px 7.5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: .8s;
+}
+.greenacceptbutton {
+  background-color: #30F57C; 
+  color: white; 
+  border: 2px solid #30F57C;
+}
+.greenacceptbutton:hover {
+  background-color: #83EDAC;
+  color: white;
+  border: 10px solid #83EDAC;
+}
+.fixed_bottom_scroll_buttons_left
+{
+    position: fixed;
+    bottom: 20px;
+	left: 600px;
+}
+.fixed_bottom_scroll_buttons_right
+{
+    position: fixed;
+    bottom: 20px;
+	right: 600px;
+}
+/** original a1
+a.a1:link, a.a1:visited {
+  background-color: #585858;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.a1:hover, a.a1:active {
+  background-color: #BDBDBD;
+}
+**/
+a.a1:link, a.a1:visited {
+  background-color: #585858;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+    transition-duration: .3s;
+	cursor:progress;
+}
+
+a.a1:hover, a.a1:active {
+  background-color: #BDBDBD;
+    padding: 16px 27px;
+}
+a.a2:link, a.a2:visited {
+  background-color: #010029;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+    display: inline-block;
+    transition-duration: .3s;
+	cursor:progress;
+}
+
+a.a2:hover, a.a2:active {
+  background-color: #00A1FF;
+    padding: 16px 27px;
+}
+.vidleft {
+  position: absolute;
+  left: 155px;
+  width: 520px;
+}
+.vidright {
+  position: absolute;
+  right: 155px;
+  width: 520px;
+}
+.truecenter {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+/**this is gallery normal**/
+a.a3:link, a.a3:visited {
+  background-color: #010029;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height: 220px;
+  width: 470px;
+  cursor:progress;
+}
+
+a.a3:hover, a.a3:active {
+  background-color: #00A1FF;
+    transition-duration: .3s;
+
+}
+/**this is gallery normal**/
+a.a3b:link, a.a3b:visited {
+  background-color: #010029;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height: 320px;
+  width: 470px;
+
+}
+
+a.a3b:hover, a.a3b:active {
+  background-color: #00A1FF;
+    transition-duration: .3s;
+}
+/**this is gallery ads**/
+a.a4:link, a.a4:visited {
+  background-color: #010029;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height: 200px;
+  width: 970px;
+  cursor:progress;
+}
+
+a.a4:hover, a.a4:active {
+  background-color: #00A1FF;
+    transition-duration: .3s;
+}
+/**this is links page**/
+a.a5:link, a.a5:visited {
+  background-color: #010029;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height: 350px;
+  width: 420px;
+  cursor:progress;
+}
+
+a.a5:hover, a.a5:active {
+  background-color: #00A1FF;
+  transition-duration: .3s;
+}
+/**this is the old emulated systems links may be used in shop now**/
+a.a6:link, a.a6:visited {
+  background-color: #010029;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height: 250px;
+  width: 250px;
+  cursor:progress;
+}
+
+a.a6:hover, a.a6:active {
+  background-color: #00A1FF;
+  transition-duration: .3s;
+}
+/**shop link**/
+a.a7:link, a.a7:visited {
+  background-color: #B40658;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor:progress;
+}
+
+a.a7:hover, a.a7:active {
+  background-color: #00FFE6;
+  transition-duration: .3s;
+}
+/**this is the old emulated systems links may be used in shop now**/
+a.a8:link, a.a8:visited {
+  background-color: #010029;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height: 270px;
+  width: 250px;
+  cursor:progress;
+}
+
+a.a8:hover, a.a8:active {
+  background-color: #00A1FF;
+  transition-duration: .3s;
+}
+/**fonts download**/
+a.a9:link, a.a9:visited {
+  background-color: #010029;
+  color: white;
+  padding: 2px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height: 80px;
+  width: 500px;
+  cursor:progress;
+}
+
+a.a9:hover, a.a9:active {
+  background-color: #00A1FF;
+  transition-duration: .3s;
+}
+/**seasonal link**/
+a.a10:link, a.a10:visited {
+  background-color: #BD0059;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: outline-block;
+  text-decoration: overline;
+  cursor:progress;
+}
+
+a.a10:hover, a.a10:active {
+  background-color: #0582F3;
+  transition-duration: .3s;
+}
+/**in text links for history page**/
+a.a11:link, a.a11:visited {
+  background-color: #435FFF;
+  color: white;
+  padding: 2px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-style: inset;
+  cursor:progress;
+}
+
+a.a11:hover, a.a11:active {
+  background-color: #BDBDBD;
+  transition-duration: .3s;
+  border-style: outset;
+  cursor:progress;
+}
+/**torrent links**/
+a.a12:link, a.a12:visited {
+  background-color: #183795;
+  color: white;
+  padding: 40px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-style: inset;
+  height: 80px;
+  width: 140px;
+  
+}
+
+a.a12:hover, a.a12:active {
+  background-color: #BDBDBD;
+  transition-duration: .3s;
+  border-style: outset;
+  border-color: white;
+}
+a.a12g:link, a.a12g:visited {
+  background-color: #00DC4F;
+  color: white;
+  padding: 40px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-style: inset;
+  height: 80px;
+  width: 140px;
+  
+}
+
+a.a12g:hover, a.a12g:active {
+  background-color: #4CFFBF;
+  transition-duration: .3s;
+  border-style: outset;
+  border-color: white;
+}
+a.a12y:link, a.a12y:visited {
+  background-color: #D1D038;
+  color: white;
+  padding: 40px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-style: inset;
+  height: 80px;
+  width: 140px;
+  
+}
+
+a.a12y:hover, a.a12y:active {
+  background-color: #E0E08D;
+  background-image: url("images/proto tall ad.png");
+  transition-duration: .3s;
+  border-style: outset;
+  border-color: white;
+}
+/**This is fake virus stuff**/
+/**just give an item the "virus_a" class**/
+.virus_a {
+ position: relative;
+ animation-name: example;
+ animation-duration: .0001s;
+ animation-iteration-count: infinite;
+}
+@keyframes example {
+ 0% { left:0px; top:0px;}
+ 25% { left:200px; top:0px;}
+ 100% { left:0px; top:0px;}
+ 50% { left:200px; top:200px;}
+ 75% { left:0px; top:200px;}
+ 0% { left:0px; top:0px;}
+ 25% { left:20px; top:0px;}
+ 100% {left:60px; top:0px;}
+ 50% { left:200px; top:200px;}
+ 75% {left:0px; top:50px;}
+}
+/**hey you. yeah you. GET OUT OF MY CSS! this here is priiiivate property!**/
+/**this is for an ad on the scam I MEAN SHOP page**/
+.shop_ad {
+ position: relative;
+ animation-name: shop_ad;
+ animation-duration: 1s;
+ animation-iteration-count: infinite;
+}
+@keyframes shop_ad {
+ 0% { left:0px; top:0px;}
+ 25% { left:-50px; top:60px;}
+ 50% { left:-100px; top:120px;}
+ 25% { left:-50px; top:60px;}
+ 100% { left:0px; top:0px;}
+}
+
+/**normal items on shop page**/
+.shopitem {
+ position: relative;
+ animation-name: shopitem;
+ animation-duration: 4s;
+ animation-iteration-count: infinite;
+}
+@keyframes shopitem {
+ 0% { left:0px; top:0px;}
+ 10% { left:50px; top:20px;}
+ 20% { left:100px; top:40px;}
+ 30% { left:150px; top:60px;}
+ 40% { left:200px; top:80px;}
+ 50% { left:250px; top:100px;}
+ 60% { left:200px; top:80px;}
+ 70% { left:150px; top:60px;}
+ 80% { left:100px; top:40px;}
+ 90% { left:50px; top:20px;}
+100% { left:0px; top:0px;}
+  
+}
+.sans {
+ position: relative;
+ animation-name: sans;
+ animation-duration: 3s;
+ animation-iteration-count: infinite;
+}
+@keyframes sans {
+ 0% { left:200px; top:0px;}
+ 25% { left:0px; top:0px;}
+ 50% { left:-200px; top:0px;}
+ 75% { left:0px; top:0px;}
+ 100% { left:200px; top:0px;}
+ }
+ .brpadding {
+  padding-top: 25px;
+  padding-bottom: 25px;
+ }  
+ /**used for button background**/
+.darkblue_background {
+	color: white;
+	background-color: #2F28A6;
+	width: 1400px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;  
+}
+.top_padding25 {
+	padding-top: 25px;
+}
+.font21px {
+font-size: 21px;	
+}
+.couriernew {
+  font-family: 'Courier New', monospace;
+}
