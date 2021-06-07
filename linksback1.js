@@ -15,6 +15,7 @@ var seasonal="<a class='a10' style='cursor:progress' href= '../seasonal.html'>Se
 var contact="<br><a class='a1' style='cursor:progress' href= '../contact.html'>Contact</a>";
 var faq="<a class='a1' style='cursor:progress' href= '../faq.html'>F.A.Q.</a>";
 var unblocker="<a class='a1' style='cursor:progress' href= '../unblocker.html'>Unblocker</a>";
+var discord="<a class='a1' style='cursor:progress' href= 'https://discord.gg/4N94Y9PERG'>Discord</a>";
  document.write(index);
  document.write(games);
  document.write(news);
@@ -32,3 +33,4 @@ var unblocker="<a class='a1' style='cursor:progress' href= '../unblocker.html'>U
  document.write(contact);
  document.write(faq);
  document.write(unblocker);
+ document.write(discord);
