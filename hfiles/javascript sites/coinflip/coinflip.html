@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div class="centerimg">
+<h2>Coin Flip</h2>
+<head><link rel="stylesheet" href="main.css"><title>Coin Flip</title></head>
+
+<button onclick="coinflip();">Click here to flip a totally real coin!</button>
+
+<p id="coinfliparea"></p>
+
+<script>
+function coinflip(){
+var coin = Math.floor(Math.random() * 2);
+//document.write(coin);
+
+if (coin == 1){
+document.getElementById("coinfliparea").innerHTML = "<img src='luxembourg franc heads.png'><br>Heads";
+} 
+else if (coin == 0){
+document.getElementById("coinfliparea").innerHTML = "<img src='luxembourg franc tails.png'><br>Tails";
+}
+}
+</script>
+</div>
+
+</body>
+</html>
