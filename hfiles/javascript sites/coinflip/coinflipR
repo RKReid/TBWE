@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div class="centerimg">
+<script>
+var rigged = 0;
+</script>
+<h2>Coin Flip</h2>
+<head><link rel="stylesheet" href="main.css"><title>Coin Flip</title></head>
+
+<button onclick="var rigcoin = 1;">Heads</button>
+<button onclick="var rigcoin = 0;">Tails</button>
+<button id="rigbutton" onclick="rig();">Rigged: No</button>
+
+
+<button onclick="coinflip();">Click here to flip a totally real coin!</button>
+
+<p id="coinfliparea"></p>
+
+<script>
+function rig(){
+if (rigged == 0){
+document.getElementById("rigbutton").innerHTML = "Rigged: No";
+} else if (rigged == 1){
+document.getElementById("rigbutton").innerHTML = "Rigged: Yes";
+} 
+}
+
+
+
+function coinflip(){
+if (rigged == 0){
+var coin = Math.floor(Math.random() * 2);
+} else if (rigged == 1) {
+var coin = rigcoin
+}
+//document.write(coin);
+
+if (coin == 1){
+document.getElementById("coinfliparea").innerHTML = "<img src='luxembourg franc heads.png'><br>Heads";
+} 
+else if (coin == 0){
+document.getElementById("coinfliparea").innerHTML = "<img src='luxembourg franc tails.png'><br>Tails";
+}
+}
+</script>
+</div>
+
+</body>
+</html>
